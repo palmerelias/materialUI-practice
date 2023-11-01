@@ -49,7 +49,6 @@ export default function BasicTable() {
           ))}
         </TableBody>
       </Table>
-      <image width="40px" src={Titleist} />
     </TableContainer>
   );
 }
