@@ -21,12 +21,12 @@ const rows = [
 
 export default function BasicTable() {
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+    <TableContainer component={Paper} sx={{ mt: 1, ml: 'auto', mr: 'auto', maxWidth: 1200}}>
+      <Table sx={{ minWidth: 650}} aria-label="simple table">
         <TableHead>
-          <TableRow>
+          <TableRow >
             <TableCell>Players</TableCell>
-            <TableCell align="right">Earnings</TableCell>
+            <TableCell  align="right">Earnings</TableCell>
             <TableCell align="right">Sponsor</TableCell>
             <TableCell align="right">Place</TableCell>
             <TableCell align="right">Country</TableCell>
