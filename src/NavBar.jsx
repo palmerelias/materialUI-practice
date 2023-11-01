@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import LoginIcon from '@mui/icons-material/Login';
-import PGAimg from './PGA.png'
+import PGAimg from './IMG/PGA.png'
 
 export default function ButtonAppBar() {
   return (
@@ -26,7 +26,6 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             PGA Tour
           </Typography>
-          
           <Button variant='outlined' color="inherit" endIcon={<LoginIcon />}>Login</Button>
         </Toolbar>
       </AppBar>
