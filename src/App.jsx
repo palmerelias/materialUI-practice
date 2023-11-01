@@ -1,11 +1,15 @@
 import { useState } from 'react'
+import AccessibilityIcon from '@mui/icons-material/Accessibility';
+import ResponsiveAppBar from './NavBar';
+import LeaderBoard from './LeaderBoard'
 
 function App() {
 
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <div>
+      <ResponsiveAppBar />
+      <LeaderBoard />
+    </div>
   )
 }
 
